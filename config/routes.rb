@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
 
-  resources :articles
+  resources :articles #ajoute toutes les routes utiles liées à la base de données des articles
 
 end
