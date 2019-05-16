@@ -1,4 +1,21 @@
 //if you want other colors you put them here
-
-@import "bootstrap-sprockets";
 @import "bootstrap";
+
+//id : #name
+//class : .name
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #000;
+  text-tranform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center
+}
